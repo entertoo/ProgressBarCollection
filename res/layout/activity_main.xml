@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.progressBar.view.NumberProgressBar
+        android:layout_margin="30dp"
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.example.progressBar.view.NumberProgressBar>
+
+    <com.example.progressBar.view.ProgressView
+        android:id="@+id/progressview"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <com.example.progressBar.view.ProgressButton
+        android:id="@+id/progressbutton"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#00ff00" />
+
+    <com.example.progressBar.view.CircleProgressView
+        android:id="@+id/circleprogressview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+    <com.example.progressBar.view.CircleProgress
+        android:id="@+id/circleprogress"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp" />
+
+</LinearLayout>
